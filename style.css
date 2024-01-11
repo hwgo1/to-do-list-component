@@ -1,4 +1,3 @@
-/* Reset default margin, padding, font-family, and box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +5,15 @@
   box-sizing: border-box;
 }
 
-/* Container styling */
 .container {
   width: 100%;
   min-height: 100vh;
+
   background: linear-gradient(135deg, #153677, #4e085f);
+
   padding: 10px;
 }
 
-/* Styling for the todo app section */
 .todo-app {
   width: 100%;
   max-width: 540px;
@@ -24,7 +23,6 @@
   border-radius: 10px;
 }
 
-/* Header styling within the todo app */
 .todo-app h2 {
   color: #002765;
   display: flex;
@@ -37,7 +35,6 @@
   margin-left: 10px;
 }
 
-/* Styling for the row containing input and button */
 .row {
   display: flex;
   align-items: center;
@@ -48,7 +45,6 @@
   margin-bottom: 25px;
 }
 
-/* Styling for the input field */
 input {
   flex: 1;
   border: none;
@@ -57,16 +53,17 @@ input {
   padding: 10px;
 }
 
-/* Styling for the button */
 button {
   border: none;
   outline: none;
   padding: 16px 50px;
   background: #ff5945;
   color: #fff;
+
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+
   transition: background 0.2s;
 }
 
@@ -74,7 +71,6 @@ button:hover {
   background: #e04838;
 }
 
-/* Styling for the unordered list and list items */
 ul li {
   list-style: none;
   font-size: 17px;
@@ -84,7 +80,6 @@ ul li {
   position: relative;
 }
 
-/* Styling for the checkbox before each list item */
 ul li::before {
   content: "";
   position: absolute;
@@ -98,7 +93,6 @@ ul li::before {
   left: 8px;
 }
 
-/* Styling for checked items */
 ul li.checked {
   color: #555;
   text-decoration: line-through;
@@ -108,21 +102,21 @@ ul li.checked::before {
   background-image: url("img/checked.png");
 }
 
-/* Styling for the removal button */
-ul li span {
-  position: absolute;
-  right: 0;
-  top: 5px;
-  width: 40px;
-  height: 40px;
-  font-size: 22px;
-  color: #555;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  transition: background 0.2s;
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: background .2s;
 }
 
-ul li span:hover {
-  background: #edeef0;
+ul li span:hover{
+    background: #edeef0;
+
 }

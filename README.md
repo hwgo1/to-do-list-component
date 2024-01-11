@@ -8,7 +8,7 @@
 
 </div>
 
-<img src="./img/qr-code-generator.png">
+<img src="./img/todo-list-component">
 
 Bem-vindo ao repositório do To-Do List App! Este é um projeto simples de aplicativo web que permite aos usuários gerenciar suas tarefas de forma fácil. O projeto apresenta uma interface de usuário limpa e intuitiva.
 
