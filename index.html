@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Set the character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title and link to the external stylesheet and JavaScript file -->
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Main container for the application -->
+    <div class="container">
+      <!-- To-Do List application section -->
+      <div class="todo-app">
+        <!-- Header with the title and icon -->
+        <h2>To-Do List <img src="img/icon.png" alt="Icon" /></h2>
+
+        <!-- Input and button row for adding tasks -->
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Adicione uma tarefa..."
+          />
+          <button onclick="addTask()">Add</button>
+        </div>
+
+        <!-- Unordered list for displaying tasks -->
+        <ul id="list-container">
+          <!-- Tasks will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
